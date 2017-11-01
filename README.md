@@ -40,14 +40,14 @@ We can create, search, and delete articles by using this application, Here we ar
 1. Now we discuss about dynomoDB2Elasticsearch folder, which is maily designed for a task to export records from dynamodb to Elasticsearch. so that we took a seperate lambda function for this functionality, first you need to move dynomoDB2Elasticsearch folder to some where in your system, then do(npm install), make it zip as above explained but while uploading need to chage lambadafunctionName with new lambda funcation.
 
 1. DynamoDB setup :
- *  Create a table in DynamoDB, table name should be 'Articles' and Key should be 'ArticleID'.
- * At Overview, Enable Stream for DynamoDB and view type should be 'New and old images'.
- * At Triggers, Create trigger and select existing lambda function that should be lambada function of dynomoDB2Elasticsearch file.
+    *  Create a table in DynamoDB, table name should be 'Articles' and Key should be 'ArticleID'.
+    * At Overview, Enable Stream for DynamoDB and view type should be 'New and old images'.
+    * At Triggers, Create trigger and select existing lambda function that should be lambada function of dynomoDB2Elasticsearch file.
 
 1. API Gateway setup :
-* create an API in API Gateway service, Select new API.
-* At resources select create method and add lambada function in method integration. then deploy method it will generate stage.
-* At stages invoke url to access application.
+    * create an API in API Gateway service, Select new API.
+    * At resources select create method and add lambada function in method integration. then deploy method it will generate stage.
+    * At stages invoke url to access application.
 
 
 
