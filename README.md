@@ -49,6 +49,11 @@ We can create, search, and delete articles by using this application, Here we ar
     * At resources select create method and add lambada function in method integration. then deploy method it will generate stage.
     * At stages invoke url to access application.
 
+1. S3 setup :
+    * Create a bucket in S3 and set bucket policy, after creating bucket we can store objects(static files i.e images, files etc) into bucket.
+    * Store images and css files in S3 bucket.
+    * S3 provides links to access images and css files.
+    * Example link :  	https://s3.us-east-2.amazonaws.com/news-article-app-bucket/public/img/tensult-img-logo.png
 
 
 
