@@ -1,0 +1,49 @@
+body{
+ background-color:silver;
+}
+header{
+
+    background-color:black;
+    -webkit-text-fill-color:silver;
+}
+.home{
+    font-size: 100%;
+    padding-top: 50px;
+    text-align: left;
+}
+.links{
+    
+    font-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: #000;
+    padding-left: 20px;
+     
+}
+.button1 {font-size: 10px;}
+.seperate {
+    border-bottom:1px solid black;
+}
+.clear {
+    clear: both;
+}
+header .opt {
+    float: left;
+}
+header .logo {
+    float: right;
+}
+header .logo img {
+    margin-right: 20px;
+    max-width: 150px;
+    max-height: 70px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+  }
+.odd{
+    background-color: #aaa;
+}
+.form-group .required .control-label:after {
+    content:"*";color:red;
+}
